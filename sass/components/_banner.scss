@@ -1,0 +1,26 @@
+.banner{
+  position: absolute;
+  width: 60rem;
+  min-height: 20vh;
+  top: 20rem;
+  left: 30rem;
+  color: #fff;
+  padding: 3rem 1.5rem;
+  animation: moveInBottom;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+
+  &__heading{
+    font-size: 4rem;
+    text-transform: uppercase;
+    
+  }
+
+  &__text{
+    font-size: 1.9rem;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+
+  }
+
+}
